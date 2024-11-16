@@ -6,11 +6,11 @@ Shopping Cart Application
 This project is a Shopping Cart Application built using React.js. It allows users to browse a list of products, add them to the cart, view a detailed cart summary in a modal, and confirm the order. The project implements clean, reusable components and features a modern user interface.
 
 Features
-Product Listing: Displays products with details like name, price, category, and stock availability.
-Add to Cart: Users can add products to their cart with proper stock management.
-Cart Summary: A modal shows the cart's contents, original total, discounted total, and options to confirm or close the cart.
-Responsive Design: Fully responsive layout suitable for different screen sizes.
-Animations: Visual feedback for actions like adding products to the cart using simple animations.
+- Product Listing: Displays products with details like name, price, category, and stock availability.
+- Add to Cart: Users can add products to their cart with proper stock management.
+- Cart Summary: A modal shows the cart's contents, original total, discounted total, and options to confirm or close the cart.
+- Responsive Design: Fully responsive layout suitable for different screen sizes.
+- Animations: Visual feedback for actions like adding products to the cart using simple animations.
 Notable Design Decisions
 Component Structure:
 
