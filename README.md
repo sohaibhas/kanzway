@@ -2,6 +2,44 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+Shopping Cart Application
+This project is a Shopping Cart Application built using React.js. It allows users to browse a list of products, add them to the cart, view a detailed cart summary in a modal, and confirm the order. The project implements clean, reusable components and features a modern user interface.
+
+Features
+Product Listing: Displays products with details like name, price, category, and stock availability.
+Add to Cart: Users can add products to their cart with proper stock management.
+Cart Summary: A modal shows the cart's contents, original total, discounted total, and options to confirm or close the cart.
+Responsive Design: Fully responsive layout suitable for different screen sizes.
+Animations: Visual feedback for actions like adding products to the cart using simple animations.
+Notable Design Decisions
+Component Structure:
+
+The project is modular, with components like CartSummary, and ConfirmationMessage.
+Each component is reusable and self-contained.
+State Management:
+
+The application uses the React useState hook for managing product and cart states.
+Discounts are calculated dynamically based on the cart's total value.
+Modal Design:
+
+The cart summary is displayed as a modal for better user experience.
+Includes an overlay to focus user attention on the modal.
+Stock Management:
+
+Products are disabled when out of stock to prevent users from adding unavailable items to the cart.
+Dynamic Discounts:
+
+Discounts are applied based on the original total (e.g., 5%, 10%, or 15% for different thresholds).
+
+Steps
+Clone the repository:
+
+git clone https://github.com/your-username/shopping-cart-app.git
+cd shopping-cart-app
+Install dependencies:
+
+npm install
+
 First, run the development server:
 
 ```bash
